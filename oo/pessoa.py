@@ -16,5 +16,10 @@ if __name__ == '__main__':
     print(ze.cumprimentar())
     print(ze.idade)
     print(ze.nome)
-    for filhos in ze.filhos:
-        print(filhos.nome)
+    ze.sobrenome = 'Ferreira'
+    print(ze.nome, ze.sobrenome)
+    del ze.filhos
+    print(ze.__dict__)
+    print(solfierii.__dict__)
+    #for filhos in ze.filhos:
+        #print(filhos.nome)
